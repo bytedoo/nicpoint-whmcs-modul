@@ -1,6 +1,6 @@
 # NICPOINT WHMCS Registrar Module
 
-![NICPOINT Logo](https://nicpoint.ba/assets/images/logo-full.png)
+![NICPOINT Logo](logo.png)
 
 Official WHMCS registrar module for **NICPOINT.ba**. This module allows hosting providers and resellers to automate the registration, renewal, and management of **.BA** domains directly through the WHMCS platform.
 
