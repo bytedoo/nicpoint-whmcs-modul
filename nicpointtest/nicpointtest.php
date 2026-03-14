@@ -20,7 +20,7 @@ function nicpointtest_MetaData()
 {
     return [
         'DisplayName' => 'NICPOINT.BA TEST ENV',
-        'APIVersion' => '1.0.0',
+        'APIVersion' => '1.1.0',
     ];
 }
 
