@@ -20,7 +20,7 @@ function nicpoint_MetaData()
 {
     return [
         'DisplayName' => 'NICPOINT.BA Registrar',
-        'APIVersion' => '1.1',
+        'APIVersion' => '1.0.0',
     ];
 }
 
