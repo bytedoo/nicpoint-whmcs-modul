@@ -23,6 +23,15 @@ Official WHMCS registrar module for **NICPOINT.ba**. This module allows hosting 
 
 ---
 
+## 📥 Downloads / Preuzimanja
+
+| Version / Verzija | Download Link / Link za preuzimanje |
+| :--- | :--- |
+| **Production** | [nicpoint-whmcs.zip](https://nicpoint.byte.ba/assets/downloads/nicpoint-whmcs.zip) |
+| **Sandbox (Test)** | [nicpointtest-whmcs.zip](https://nicpoint.byte.ba/assets/downloads/nicpointtest-whmcs.zip) |
+
+---
+
 ## 🚀 Installation / Instalacija
 
 ### 1. Choose your version
