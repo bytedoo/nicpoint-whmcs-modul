@@ -42,6 +42,11 @@ function nicpoint_ConfigOptions()
             'Default' => '',
             'Description' => 'Enter your NICPOINT password',
         ],
+        'TestMode' => [
+            'FriendlyName' => 'Test Mode',
+            'Type' => 'yesno',
+            'Description' => 'Tick to enable sandbox testing mode',
+        ],
     ];
 }
 
@@ -50,9 +55,14 @@ function nicpoint_ConfigOptions()
  */
 function nicpoint_GetApiClient($params)
 {
+    $testMode = $params['TestMode'] === 'on';
+    
+    $apiUrl = $testMode ? 'https://apitest.nicpoint.ba' : 'https://api.nicpoint.ba';
+    $authUrl = $testMode ? 'https://authtest.nicpoint.ba' : 'https://auth.nicpoint.ba';
+
     return new NicpointApiClient(
-        'https://api.nicpoint.ba',
-        'https://auth.nicpoint.ba',
+        $apiUrl,
+        $authUrl,
         $params['Username'],
         $params['Password']
     );
